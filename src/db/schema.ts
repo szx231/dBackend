@@ -167,10 +167,11 @@ export const rightsToRoles = pgTable(
 );
 
 export const activation = pgTable('activations', {
-  id: uuid().primaryKey().defaultRandom(),
   is_activated: boolean().notNull(),
   activated_at: date().defaultNow(),
-  user_id: uuid().references(() => users.id, { onDelete: 'cascade' }),
+  user_id: uuid()
+    .primaryKey()
+    .references(() => users.id, { onDelete: 'cascade' }),
 });
 
 export const exteralProviders = pgTable('external_providers', {
