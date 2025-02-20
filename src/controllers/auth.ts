@@ -47,14 +47,8 @@ export const logIn = async (request: FastifyRequest, reply: FastifyReply) => {
   throw Error('Invalid credentials');
 };
 
-export const getSession = async (request: FastifyRequest, reply: FastifyReply) => {
+export const getSession = async (request: FastifyRequest) => {
   const user = request.session.user;
-
-  if (!user) {
-    reply.status(401);
-    throw Error('Not authenticated');
-  }
-
   return user;
 };
 
