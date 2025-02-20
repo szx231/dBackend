@@ -37,9 +37,7 @@ export const logIn = async (request: FastifyRequest, reply: FastifyReply) => {
     const checkResult = compareHashes(credentials.password, inBaseUser.hash);
     if (checkResult) {
       request.session.set('user', inBaseUser);
-
-      const { hash: _, ...userData } = inBaseUser;
-      return userData;
+      return reply.redirect('/api/v1/auth/session');
     }
   }
 
