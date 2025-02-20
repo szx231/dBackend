@@ -1,5 +1,5 @@
 import { sql } from 'drizzle-orm';
-import { boolean, date, pgTable, primaryKey, text, uuid, varchar, real, index } from 'drizzle-orm/pg-core';
+import { boolean, date, index, pgTable, primaryKey, real, text, uuid, varchar } from 'drizzle-orm/pg-core';
 
 export const genders = pgTable('genders', {
   code: varchar({ length: 16 }).primaryKey(),
@@ -118,6 +118,7 @@ export const users = pgTable('users', {
     .default(sql`false::boolean`)
     .notNull(),
 
+  // TODO
   // skills - need
   // intersts - need
 
@@ -166,8 +167,24 @@ export const rightsToRoles = pgTable(
 );
 
 export const activation = pgTable('activations', {
-  id: uuid().primaryKey().defaultRandom(),
   is_activated: boolean().notNull(),
   activated_at: date().defaultNow(),
-  user_id: uuid().references(() => users.id, { onDelete: 'cascade' }),
+  user_id: uuid()
+    .primaryKey()
+    .references(() => users.id, { onDelete: 'cascade' }),
+});
+
+export const exteralProviders = pgTable('external_providers', {
+  name: varchar({ length: 32 }).primaryKey(),
+});
+
+export const externalUserProviders = pgTable('external_user_providers', {
+  user_id: uuid()
+    .notNull()
+    .references(() => users.id),
+  provider_name: varchar({ length: 32 })
+    .notNull()
+    .references(() => exteralProviders.name),
+  provider_user_id: varchar({ length: 128 }).notNull(),
+  provider_user_token: varchar({ length: 128 }),
 });

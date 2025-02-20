@@ -1,13 +1,11 @@
-import type { RegisterUserBody } from '@/router/auth.schemas.js';
+import type { LogInBody, RegisterUserBody } from '@/router/auth.schemas.js';
 import { dbService } from '@/services/index.js';
-import { createHash } from '@/shared/utils/passwords.js';
+import { compareHashes, createHash } from '@/shared/utils/passwords.js';
 import { type FastifyReply, type FastifyRequest } from 'fastify';
 
 export const register = async (request: FastifyRequest, reply: FastifyReply) => {
   const userData = request.body as RegisterUserBody;
   const isExist = await dbService.users.findByEmail(userData.email);
-
-  console.log('USER_DATA', userData);
 
   if (isExist) {
     reply.status(400);
@@ -29,4 +27,30 @@ export const register = async (request: FastifyRequest, reply: FastifyReply) => 
   reply.status(201);
 
   return newUser;
+};
+
+export const logIn = async (request: FastifyRequest, reply: FastifyReply) => {
+  const credentials = request.body as LogInBody;
+  const inBaseUser = await dbService.users.findByEmail(credentials.email);
+
+  if (inBaseUser && inBaseUser.hash) {
+    const checkResult = compareHashes(credentials.password, inBaseUser.hash);
+    if (checkResult) {
+      request.session.set('user', inBaseUser);
+      return reply.redirect('/api/v1/auth/session');
+    }
+  }
+
+  reply.status(401);
+  throw Error('Invalid credentials');
+};
+
+export const getSession = async (request: FastifyRequest) => {
+  const user = request.session.user;
+  return user;
+};
+
+export const logOut = (request: FastifyRequest) => {
+  request.session.destroy();
+  return { status: 'done' };
 };
