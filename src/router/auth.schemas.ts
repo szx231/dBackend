@@ -4,7 +4,7 @@ export const registerUserSchema = z.object({
   email: z.string().email(),
   password: z.string(),
   fullName: z.string(),
-  dateBirth: z.date({ coerce: true }),
+  dateBirth: z.coerce.date(),
   gender: z.string(),
   partnerGender: z.string(),
   height: z.coerce.number(),
