@@ -172,3 +172,18 @@ export const activation = pgTable('activations', {
   activated_at: date().defaultNow(),
   user_id: uuid().references(() => users.id, { onDelete: 'cascade' }),
 });
+
+export const exteralProviders = pgTable('external_providers', {
+  name: varchar({ length: 32 }).primaryKey(),
+});
+
+export const externalUserProviders = pgTable('external_user_providers', {
+  user_id: uuid()
+    .notNull()
+    .references(() => users.id),
+  provider_name: varchar({ length: 32 })
+    .notNull()
+    .references(() => exteralProviders.name),
+  provider_user_id: varchar({ length: 128 }).notNull(),
+  provider_user_token: varchar({ length: 128 }),
+});
