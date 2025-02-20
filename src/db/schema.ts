@@ -1,5 +1,5 @@
 import { sql } from 'drizzle-orm';
-import { boolean, date, pgTable, primaryKey, text, uuid, varchar, real, index } from 'drizzle-orm/pg-core';
+import { boolean, date, index, pgTable, primaryKey, real, text, uuid, varchar } from 'drizzle-orm/pg-core';
 
 export const genders = pgTable('genders', {
   code: varchar({ length: 16 }).primaryKey(),
@@ -118,6 +118,7 @@ export const users = pgTable('users', {
     .default(sql`false::boolean`)
     .notNull(),
 
+  // TODO
   // skills - need
   // intersts - need
 
