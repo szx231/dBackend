@@ -1,8 +1,7 @@
 CREATE TABLE "activations" (
-	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"is_activated" boolean NOT NULL,
 	"activated_at" date DEFAULT now(),
-	"user_id" uuid
+	"user_id" uuid PRIMARY KEY NOT NULL
 );
 --> statement-breakpoint
 CREATE TABLE "cities" (
@@ -30,6 +29,17 @@ CREATE TABLE "edu_types" (
 	"name" text
 );
 --> statement-breakpoint
+CREATE TABLE "external_providers" (
+	"name" varchar(32) PRIMARY KEY NOT NULL
+);
+--> statement-breakpoint
+CREATE TABLE "external_user_providers" (
+	"user_id" uuid NOT NULL,
+	"provider_name" varchar(32) NOT NULL,
+	"provider_user_id" varchar(128) NOT NULL,
+	"provider_user_token" varchar(128)
+);
+--> statement-breakpoint
 CREATE TABLE "files" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"name" varchar(256) NOT NULL,
@@ -46,6 +56,19 @@ CREATE TABLE "genders" (
 CREATE TABLE "habbits" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"name" text
+);
+--> statement-breakpoint
+CREATE TABLE "interests" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"name" varchar(128) NOT NULL,
+	"icon" varchar(128) NOT NULL,
+	"category_id" uuid NOT NULL
+);
+--> statement-breakpoint
+CREATE TABLE "interests_categories" (
+	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
+	"name" varchar(128) NOT NULL,
+	CONSTRAINT "interests_categories_name_unique" UNIQUE("name")
 );
 --> statement-breakpoint
 CREATE TABLE "job_titles" (
@@ -126,6 +149,9 @@ ALTER TABLE "activations" ADD CONSTRAINT "activations_user_id_users_id_fk" FOREI
 ALTER TABLE "cities" ADD CONSTRAINT "cities_country_code_countries_code_fk" FOREIGN KEY ("country_code") REFERENCES "public"."countries"("code") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
 ALTER TABLE "countries" ADD CONSTRAINT "countries_icon_file_files_id_fk" FOREIGN KEY ("icon_file") REFERENCES "public"."files"("id") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
 ALTER TABLE "edu_deps" ADD CONSTRAINT "edu_deps_edu_type_edu_types_type_fk" FOREIGN KEY ("edu_type") REFERENCES "public"."edu_types"("type") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
+ALTER TABLE "external_user_providers" ADD CONSTRAINT "external_user_providers_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
+ALTER TABLE "external_user_providers" ADD CONSTRAINT "external_user_providers_provider_name_external_providers_name_fk" FOREIGN KEY ("provider_name") REFERENCES "public"."external_providers"("name") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
+ALTER TABLE "interests" ADD CONSTRAINT "interests_category_id_interests_categories_id_fk" FOREIGN KEY ("category_id") REFERENCES "public"."interests_categories"("id") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
 ALTER TABLE "languages" ADD CONSTRAINT "languages_country_code_countries_code_fk" FOREIGN KEY ("country_code") REFERENCES "public"."countries"("code") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
 ALTER TABLE "languages_to_user" ADD CONSTRAINT "languages_to_user_user_id_users_id_fk" FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
 ALTER TABLE "languages_to_user" ADD CONSTRAINT "languages_to_user_language_name_languages_name_fk" FOREIGN KEY ("language_name") REFERENCES "public"."languages"("name") ON DELETE no action ON UPDATE no action;--> statement-breakpoint
