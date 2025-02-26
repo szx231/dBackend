@@ -1,687 +1,687 @@
 [
   {
-    "name": "Компьютерные игры",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/computer_games@2x.webp",
-    "category": "Хобби"
+    "name": "Computer games",
+    "icon": "computer_games@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Мода и красота",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/fashion@2x.webp",
-    "category": "Хобби"
+    "name": "Fashion and beauty",
+    "icon": "fashion@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Автомобили",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cars@2x.webp",
-    "category": "Хобби"
+    "name": "Cars",
+    "icon": "cars@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "IT и технологии",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/it@2x.webp",
-    "category": "Хобби"
+    "name": "IT and technology",
+    "icon": "it@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Психология",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/psychology@2x.webp",
-    "category": "Хобби"
+    "name": "Psychology",
+    "icon": "psychology@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Астрология",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/astrology@2x.webp",
-    "category": "Хобби"
+    "name": "Astrology",
+    "icon": "astrology@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Медитации",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/meditations@2x.webp",
-    "category": "Хобби"
+    "name": "Meditation",
+    "icon": "meditations@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Комиксы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/comics@2x.webp",
-    "category": "Хобби"
+    "name": "Comics",
+    "icon": "comics@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Манга",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/manga@2x.webp",
-    "category": "Хобби"
+    "name": "Manga",
+    "icon": "manga@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Фанфики",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/fan_fiction@2x.webp",
-    "category": "Хобби"
+    "name": "Fan fiction",
+    "icon": "fan_fiction@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Коллекционирование",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/collecting@2x.webp",
-    "category": "Хобби"
+    "name": "Collecting",
+    "icon": "collecting@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Изучение языков",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/learning_languages@2x.webp",
-    "category": "Хобби"
+    "name": "Language learning",
+    "icon": "learning_languages@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Стриминги",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/streaming_services@2x.webp",
-    "category": "Хобби"
+    "name": "Streaming services",
+    "icon": "streaming_services@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Игры на приставке",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/consoles@2x.webp",
-    "category": "Хобби"
+    "name": "Console gaming",
+    "icon": "consoles@2x.webp",
+    "category": "Hobbies"
   },
   {
-    "name": "Кинотеатры",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cinema@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Cinemas",
+    "icon": "cinema@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Концерты и шоу",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/concert_and_show@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Concerts and shows",
+    "icon": "concert_and_show@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Музеи и галереи",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/museums_and_galleries@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Museums and galleries",
+    "icon": "museums_and_galleries@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Театры",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/theater@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Theaters",
+    "icon": "theater@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Отдых на природе",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/camping@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Outdoor activities",
+    "icon": "camping@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Фестивали",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/festivals@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Festivals",
+    "icon": "festivals@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Тусовки и клубы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/parties_and_clubs@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Parties and clubs",
+    "icon": "parties_and_clubs@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Рестораны",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/restaurants@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Restaurants",
+    "icon": "restaurants@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Путешествия",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/travel@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Traveling",
+    "icon": "travel@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Шопинг",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/shopping@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Shopping",
+    "icon": "shopping@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Встречи с друзьями",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/friends@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Meeting friends",
+    "icon": "friends@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Искусство",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/art@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Art",
+    "icon": "art@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Активный отдых",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/active_leisure@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Active leisure",
+    "icon": "active_leisure@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Мастер-классы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/masterclasses@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Master classes",
+    "icon": "masterclasses@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Караоке",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/karaoke@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Karaoke",
+    "icon": "karaoke@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Квизы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/quizzes@2x.webp",
-    "category": "Социальная жизнь"
+    "name": "Quizzes",
+    "icon": "quizzes@2x.webp",
+    "category": "Social life"
   },
   {
-    "name": "Фотография",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/photo@2x.webp",
-    "category": "Творчество"
+    "name": "Photography",
+    "icon": "photo@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Видеосъемка",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/videography@2x.webp",
-    "category": "Творчество"
+    "name": "Videography",
+    "icon": "videography@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Дизайн",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/design@2x.webp",
-    "category": "Творчество"
+    "name": "Design",
+    "icon": "design@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Макияж",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/makeup@2x.webp",
-    "category": "Творчество"
+    "name": "Makeup",
+    "icon": "makeup@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Рукоделие",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/handmade@2x.webp",
-    "category": "Творчество"
+    "name": "Handicraft",
+    "icon": "handmade@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Танцы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/dancing@2x.webp",
-    "category": "Творчество"
+    "name": "Dancing",
+    "icon": "dancing@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Пение",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/singing@2x.webp",
-    "category": "Творчество"
+    "name": "Singing",
+    "icon": "singing@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Музыка",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/music@2x.webp",
-    "category": "Творчество"
+    "name": "Music",
+    "icon": "music@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Ведение блога",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/blogging@2x.webp",
-    "category": "Творчество"
+    "name": "Blogging",
+    "icon": "blogging@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Рисование",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/painting@2x.webp",
-    "category": "Творчество"
+    "name": "Painting",
+    "icon": "painting@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Стрит-арт",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/street_art@2x.webp",
-    "category": "Творчество"
+    "name": "Street art",
+    "icon": "street_art@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Флористика",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/floristics@2x.webp",
-    "category": "Творчество"
+    "name": "Floristry",
+    "icon": "floristics@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Косплей",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cosplay@2x.webp",
-    "category": "Творчество"
+    "name": "Cosplay",
+    "icon": "cosplay@2x.webp",
+    "category": "Creativity"
   },
   {
-    "name": "Бег",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/run@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Running",
+    "icon": "run@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Фитнес",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/fitness_gym@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Fitness",
+    "icon": "fitness_gym@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Велосипед",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/bicycle@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Cycling",
+    "icon": "bicycle@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Верховая езда",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/horse_riding@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Horse riding",
+    "icon": "horse_riding@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Лыжи",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/ski@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Skiing",
+    "icon": "ski@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Йога",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/yoga@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Yoga",
+    "icon": "yoga@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Пилатес",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/pilates@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Pilates",
+    "icon": "pilates@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Сноуборд",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/snowboard@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Snowboarding",
+    "icon": "snowboard@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Ролики",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/roller_skates@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Roller skating",
+    "icon": "roller_skates@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Скейтборд",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/skateboard@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Skateboarding",
+    "icon": "skateboard@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Самокат",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/scooter@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Scootering",
+    "icon": "scooter@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Прогулки",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/walks@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Walking",
+    "icon": "walks@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Альпинизм",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/climbing@2x.webp",
-    "category": "Активный образ жизни"
+    "name": "Climbing",
+    "icon": "climbing@2x.webp",
+    "category": "Active lifestyle"
   },
   {
-    "name": "Пицца",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/pizza@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Pizza",
+    "icon": "pizza@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Суши",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/sushi@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Sushi",
+    "icon": "sushi@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Бургеры",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/burger@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Burgers",
+    "icon": "burger@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Здоровое питание",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/healthy_diet@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Healthy eating",
+    "icon": "healthy_diet@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Веганство",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/veganism@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Veganism",
+    "icon": "veganism@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Вегетарианство",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/vegetarianism@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Vegetarianism",
+    "icon": "vegetarianism@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Кофе",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/coffee@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Coffee",
+    "icon": "coffee@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Чай",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/tea@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Tea",
+    "icon": "tea@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Выпечка",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/bakery@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Bakery",
+    "icon": "bakery@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Сладости",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/sweets@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Sweets",
+    "icon": "sweets@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Домашняя кухня",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/home_cooking@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Home cooking",
+    "icon": "home_cooking@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Бабл-ти",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/bubble_tea@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Bubble tea",
+    "icon": "bubble_tea@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Паста",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/pasta@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Pasta",
+    "icon": "pasta@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Шаурма",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/shawarma@2x.webp",
-    "category": "Еда и напитки"
+    "name": "Shawarma",
+    "icon": "shawarma@2x.webp",
+    "category": "Food and drinks"
   },
   {
-    "name": "Футбол",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/football@2x.webp",
-    "category": "Спорт"
+    "name": "Football",
+    "icon": "football@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Плавание",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/swimming@2x.webp",
-    "category": "Спорт"
+    "name": "Swimming",
+    "icon": "swimming@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Волейбол",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/volleyball@2x.webp",
-    "category": "Спорт"
+    "name": "Volleyball",
+    "icon": "volleyball@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Баскетбол",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/basketball@2x.webp",
-    "category": "Спорт"
+    "name": "Basketball",
+    "icon": "basketball@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Хоккей",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/hockey@2x.webp",
-    "category": "Спорт"
+    "name": "Hockey",
+    "icon": "hockey@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Тяжёлая атлетика",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/weightlifting@2x.webp",
-    "category": "Спорт"
+    "name": "Weightlifting",
+    "icon": "weightlifting@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Бокс",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/boxing@2x.webp",
-    "category": "Спорт"
+    "name": "Boxing",
+    "icon": "boxing@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Киберспорт",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/gaming@2x.webp",
-    "category": "Спорт"
+    "name": "E-sports",
+    "icon": "gaming@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Единоборства",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/martial_arts@2x.webp",
-    "category": "Спорт"
+    "name": "Martial arts",
+    "icon": "martial_arts@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Теннис",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/tennis@2x.webp",
-    "category": "Спорт"
+    "name": "Tennis",
+    "icon": "tennis@2x.webp",
+    "category": "Sports"
   },
   {
-    "name": "Кулинария",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cooking@2x.webp",
-    "category": "Время дома"
+    "name": "Cooking",
+    "icon": "cooking@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Настольные игры",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/boardgames@2x.webp",
-    "category": "Время дома"
+    "name": "Board games",
+    "icon": "boardgames@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Кино и сериалы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/movies@2x.webp",
-    "category": "Время дома"
+    "name": "Movies and TV series",
+    "icon": "movies@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Садоводство",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/gardening@2x.webp",
-    "category": "Время дома"
+    "name": "Gardening",
+    "icon": "gardening@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Книги",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/books@2x.webp",
-    "category": "Время дома"
+    "name": "Books",
+    "icon": "books@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Саморазвитие",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/self_development@2x.webp",
-    "category": "Время дома"
+    "name": "Self-development",
+    "icon": "self_development@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Онлайн-обучение",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/online_learning@2x.webp",
-    "category": "Время дома"
+    "name": "Online learning",
+    "icon": "online_learning@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Просмотр шоу",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/show_watching@2x.webp",
-    "category": "Время дома"
+    "name": "Watching shows",
+    "icon": "show_watching@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Подкасты",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/podcasts@2x.webp",
-    "category": "Время дома"
+    "name": "Podcasts",
+    "icon": "podcasts@2x.webp",
+    "category": "At home"
   },
   {
-    "name": "Загородные поездки",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/country_trips@2x.webp",
-    "category": "Путешествия"
+    "name": "Country trips",
+    "icon": "country_trips@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Турпоходы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/tourism@2x.webp",
-    "category": "Путешествия"
+    "name": "Hiking",
+    "icon": "tourism@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Экскурсии",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/excursions@2x.webp",
-    "category": "Путешествия"
+    "name": "Excursions",
+    "icon": "excursions@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Пляжный отдых",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/beach_rest@2x.webp",
-    "category": "Путешествия"
+    "name": "Beach vacation",
+    "icon": "beach_rest@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Охота и рыбалка",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/fishing@2x.webp",
-    "category": "Путешествия"
+    "name": "Hunting and fishing",
+    "icon": "fishing@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Круизы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cruises@2x.webp",
-    "category": "Путешествия"
+    "name": "Cruises",
+    "icon": "cruises@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Горы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/mountains@2x.webp",
-    "category": "Путешествия"
+    "name": "Mountains",
+    "icon": "mountains@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Мероприятия и концерты",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/events@2x.webp",
-    "category": "Путешествия"
+    "name": "Events and concerts",
+    "icon": "events@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Путешествия за границей",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/traveling_abroad@2x.webp",
-    "category": "Путешествия"
+    "name": "International travel",
+    "icon": "traveling_abroad@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Экстрим",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/extreme@2x.webp",
-    "category": "Путешествия"
+    "name": "Extreme sports",
+    "icon": "extreme@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Путешествия по России",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/travels_to_russia@2x.webp",
-    "category": "Путешествия"
+    "name": "Travel in Russia",
+    "icon": "travels_to_russia@2x.webp",
+    "category": "Travel"
   },
   {
-    "name": "Кошки",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cats@2x.webp",
-    "category": "Домашние животные"
+    "name": "Cats",
+    "icon": "cats@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Собаки",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/dogs@2x.webp",
-    "category": "Домашние животные"
+    "name": "Dogs",
+    "icon": "dogs@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Птицы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/birds@2x.webp",
-    "category": "Домашние животные"
+    "name": "Birds",
+    "icon": "birds@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Рыбки",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/fish@2x.webp",
-    "category": "Домашние животные"
+    "name": "Fish",
+    "icon": "fish@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Кролики",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/rabbits@2x.webp",
-    "category": "Домашние животные"
+    "name": "Rabbits",
+    "icon": "rabbits@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Черепахи",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/turtles@2x.webp",
-    "category": "Домашние животные"
+    "name": "Turtles",
+    "icon": "turtles@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Змеи",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/snakes@2x.webp",
-    "category": "Домашние животные"
+    "name": "Snakes",
+    "icon": "snakes@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Ящерицы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/lizards@2x.webp",
-    "category": "Домашние животные"
+    "name": "Lizards",
+    "icon": "lizards@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Хомяки",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/hamsters@2x.webp",
-    "category": "Домашние животные"
+    "name": "Hamsters",
+    "icon": "hamsters@2x.webp",
+    "category": "Pets"
   },
   {
-    "name": "Комедии",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/comedies@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Comedy",
+    "icon": "comedies@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Мультфильмы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/cartoons@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Cartoons",
+    "icon": "cartoons@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Исторические",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/historical_films@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Historical films",
+    "icon": "historical_films@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Детективы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/detectives@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Detectives",
+    "icon": "detectives@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Приключения",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/adventures@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Adventure",
+    "icon": "adventures@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Ужасы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/horrors@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Horror",
+    "icon": "horrors@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Драмы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/dramas@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Drama",
+    "icon": "dramas@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Мелодрамы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/melodramas@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Melodrama",
+    "icon": "melodramas@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Триллеры",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/thrillers@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Thriller",
+    "icon": "thrillers@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Боевики",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/action_movie@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Action",
+    "icon": "action_movie@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Аниме",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/anime@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Anime",
+    "icon": "anime@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Тру-крайм",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/true_crime@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "True crime",
+    "icon": "true_crime@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Документальное кино",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/documentary@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Documentary",
+    "icon": "documentary@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Развлекательные шоу",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/entertainment_show@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Entertainment show",
+    "icon": "entertainment_show@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Стендап",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/standup@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Stand-up",
+    "icon": "stand_up@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Дорамы",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/doramas@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Dorama",
+    "icon": "doramas@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Фантастика",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/fiction@2x.webp",
-    "category": "Фильмы и сериалы"
+    "name": "Science fiction",
+    "icon": "fiction@2x.webp",
+    "category": "Movies and TV series"
   },
   {
-    "name": "Поп-музыка",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/pop_music@2x.webp",
-    "category": "Музыка"
+    "name": "Pop music",
+    "icon": "pop_music@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Хип-хоп",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/hip_hop@2x.webp",
-    "category": "Музыка"
+    "name": "Hip-hop",
+    "icon": "hip_hop@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Электроника",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/electronic_music@2x.webp",
-    "category": "Музыка"
+    "name": "Electronic music",
+    "icon": "electronic_music@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Рок",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/rock@2x.webp",
-    "category": "Музыка"
+    "name": "Rock",
+    "icon": "rock@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Рэп",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/rap@2x.webp",
-    "category": "Музыка"
+    "name": "Rap",
+    "icon": "rap@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Классическая музыка",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/classical_music@2x.webp",
-    "category": "Музыка"
+    "name": "Classical music",
+    "icon": "classical_music@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Метал",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/metal_music@2x.webp",
-    "category": "Музыка"
+    "name": "Metal",
+    "icon": "metal_music@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Техно",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/techno_music@2x.webp",
-    "category": "Музыка"
+    "name": "Techno",
+    "icon": "techno_music@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Блюз",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/blues@2x.webp",
-    "category": "Музыка"
+    "name": "Blues",
+    "icon": "blues@2x.webp",
+    "category": "Music"
   },
   {
-    "name": "Меломан",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/music_lover@2x.webp",
-    "category": "Музыка"
+    "name": "Music lover",
+    "icon": "music_lover@2x.webp",
+    "category": "Music"
   },
   {
     "name": "K-pop",
-    "icon": "https://static.vk.com/vkdating-static-assets/assets/vk/interests/k_pop@2x.webp",
-    "category": "Музыка"
+    "icon": "k_pop@2x.webp",
+    "category": "Music"
   }
 ]

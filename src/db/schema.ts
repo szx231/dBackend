@@ -143,6 +143,20 @@ export const users = pgTable('users', {
     .notNull(),
 });
 
+export const interstsCategories = pgTable('interests_categories', {
+  id: uuid().primaryKey().defaultRandom(),
+  name: varchar({ length: 128 }).notNull().unique(),
+});
+
+export const interests = pgTable('interests', {
+  id: uuid().primaryKey().defaultRandom(),
+  name: varchar({ length: 128 }).notNull(),
+  icon: varchar({ length: 128 }).notNull(),
+  category_id: uuid()
+    .notNull()
+    .references(() => interstsCategories.id),
+});
+
 export const roles = pgTable('roles', {
   code: varchar({ length: 32 }).primaryKey(),
   description: text(),
