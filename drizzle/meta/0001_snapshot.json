@@ -1,6 +1,6 @@
 {
-  "id": "24825afe-7d4d-4be5-9e95-92977af0be4e",
-  "prevId": "70df0cae-cd80-4e2e-9927-bbc5b2388cf2",
+  "id": "1797f76a-b9c0-45c1-89c8-b433eda1d8cf",
+  "prevId": "fac36a8f-dac9-4570-bdc1-8b6cc6757d53",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -8,13 +8,6 @@
       "name": "activations",
       "schema": "",
       "columns": {
-        "id": {
-          "name": "id",
-          "type": "uuid",
-          "primaryKey": true,
-          "notNull": true,
-          "default": "gen_random_uuid()"
-        },
         "is_activated": {
           "name": "is_activated",
           "type": "boolean",
@@ -31,8 +24,8 @@
         "user_id": {
           "name": "user_id",
           "type": "uuid",
-          "primaryKey": false,
-          "notNull": false
+          "primaryKey": true,
+          "notNull": true
         }
       },
       "indexes": {},
@@ -146,30 +139,10 @@
           "type": "varchar(128)",
           "primaryKey": false,
           "notNull": true
-        },
-        "icon_file": {
-          "name": "icon_file",
-          "type": "uuid",
-          "primaryKey": false,
-          "notNull": false
         }
       },
       "indexes": {},
-      "foreignKeys": {
-        "countries_icon_file_files_id_fk": {
-          "name": "countries_icon_file_files_id_fk",
-          "tableFrom": "countries",
-          "tableTo": "files",
-          "columnsFrom": [
-            "icon_file"
-          ],
-          "columnsTo": [
-            "id"
-          ],
-          "onDelete": "no action",
-          "onUpdate": "no action"
-        }
-      },
+      "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {},
       "policies": {},
@@ -421,6 +394,92 @@
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.interests": {
+      "name": "interests",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "icon": {
+          "name": "icon",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category_id": {
+          "name": "category_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "interests_category_id_interests_categories_id_fk": {
+          "name": "interests_category_id_interests_categories_id_fk",
+          "tableFrom": "interests",
+          "tableTo": "interests_categories",
+          "columnsFrom": [
+            "category_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.interests_categories": {
+      "name": "interests_categories",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "name": {
+          "name": "name",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "interests_categories_name_unique": {
+          "name": "interests_categories_name_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "name"
+          ]
+        }
+      },
       "policies": {},
       "checkConstraints": {},
       "isRLSEnabled": false

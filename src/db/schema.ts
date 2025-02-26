@@ -37,7 +37,6 @@ export const files = pgTable('files', {
 export const countries = pgTable('countries', {
   code: varchar({ length: 16 }).primaryKey(),
   name: varchar({ length: 128 }).notNull(),
-  icon_file: uuid().references(() => files.id),
 });
 
 export const cities = pgTable(
@@ -120,7 +119,6 @@ export const users = pgTable('users', {
 
   // TODO
   // skills - need
-  // intersts - need
 
   // location_lat float [not null]
   // location_lon float [not null]
@@ -142,6 +140,33 @@ export const users = pgTable('users', {
     .references(() => roles.code, { onDelete: 'set null', onUpdate: 'cascade' })
     .notNull(),
 });
+
+export const interstsCategories = pgTable('interests_categories', {
+  id: uuid().primaryKey().defaultRandom(),
+  name: varchar({ length: 128 }).notNull().unique(),
+});
+
+export const interests = pgTable('interests', {
+  id: uuid().primaryKey().defaultRandom(),
+  name: varchar({ length: 128 }).notNull(),
+  icon: varchar({ length: 128 }).notNull(),
+  category_id: uuid()
+    .notNull()
+    .references(() => interstsCategories.id),
+});
+
+export const interestToUser = pgTable(
+  'interest_to_user',
+  {
+    user_id: uuid()
+      .notNull()
+      .references(() => users.id),
+    interest_id: uuid()
+      .notNull()
+      .references(() => interests.id),
+  },
+  (t) => [primaryKey({ columns: [t.user_id, t.interest_id] })],
+);
 
 export const roles = pgTable('roles', {
   code: varchar({ length: 32 }).primaryKey(),

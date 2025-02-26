@@ -8,5 +8,6 @@ await import('./sportAttitude.js');
 await import('./countriesAndCitites.js');
 await import('./languages.js');
 await import('./eduTypes.js');
+await import('./interests.js');
 
 process.exit();
