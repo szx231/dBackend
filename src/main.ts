@@ -6,6 +6,7 @@ import Fastify from 'fastify';
 import { serializerCompiler, validatorCompiler } from 'fastify-type-provider-zod';
 
 import { infoRouter } from '@/router/info.js';
+import { profileRouter } from '@/router/profile.js';
 import { authRouter } from './router/auth.js';
 
 const server = Fastify({ logger: true });
@@ -28,6 +29,7 @@ server.setSerializerCompiler(serializerCompiler);
 
 server.register(authRouter, { prefix: '/api/v1/auth' });
 server.register(infoRouter, { prefix: '/api/v1/info' });
+server.register(profileRouter, { prefix: '/api/v1/profile' });
 
 server.listen({ port: 8090 }, (err) => {
   if (err) throw err;
