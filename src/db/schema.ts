@@ -119,7 +119,6 @@ export const users = pgTable('users', {
 
   // TODO
   // skills - need
-  // intersts - need
 
   // location_lat float [not null]
   // location_lon float [not null]
@@ -155,6 +154,19 @@ export const interests = pgTable('interests', {
     .notNull()
     .references(() => interstsCategories.id),
 });
+
+export const interestToUser = pgTable(
+  'interest_to_user',
+  {
+    user_id: uuid()
+      .notNull()
+      .references(() => users.id),
+    interest_id: uuid()
+      .notNull()
+      .references(() => interests.id),
+  },
+  (t) => [primaryKey({ columns: [t.user_id, t.interest_id] })],
+);
 
 export const roles = pgTable('roles', {
   code: varchar({ length: 32 }).primaryKey(),
