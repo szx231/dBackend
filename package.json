@@ -8,7 +8,8 @@
     "start": "tsx ./src/main.ts",
     "generate": "drizzle-kit generate",
     "migrate": "drizzle-kit migrate",
-    "studio": "drizzle-kit studio"
+    "studio": "drizzle-kit studio",
+    "seed": "tsx ./src/seed/index.ts"
   },
   "keywords": [],
   "author": "",
