@@ -37,7 +37,6 @@ export const files = pgTable('files', {
 export const countries = pgTable('countries', {
   code: varchar({ length: 16 }).primaryKey(),
   name: varchar({ length: 128 }).notNull(),
-  icon_file: uuid().references(() => files.id),
 });
 
 export const cities = pgTable(
